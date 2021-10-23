@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+
+    "name": "Lunchbox",
+    "description": "Let's see how many sandwiches you've made!",
+    "version": "1.0",
+    "author": "HackGT Toasterz",
+    "browser_action": {
+        "default_icon": "toast.png",
+        "default_popup": "popup.html",
+        "default_title": "Toasterz Study Time"
+    },
+    "permissions": [
+        "activeTab"
+    ]
+}
