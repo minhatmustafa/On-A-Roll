@@ -3,7 +3,9 @@ document.addEventListener('DOMContentLoaded', function() {
     checkPageButton.addEventListener('click', function() {
 
         chrome.tabs.getSelected(null, function(tab) {
-            alert("Welcome to your dashboard!");
+            chrome.windows.create({
+                url: chrome.runtime.getURL("dashboard.html")
+            })
         });
     }, false);
 
