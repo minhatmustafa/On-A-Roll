@@ -7,3 +7,16 @@ body{
     margin: 5px;
     background-color: #FFFBF4;
 }
+
+.btn{
+    background-color: palevioletred;
+}
+#lunchbox{
+    background-color: #FAC05E;
+    text-align: center;
+}
+#help{
+    background-color: #F79D84;
+    text-align: center;
+}
+button{border-radius: 4px;}
