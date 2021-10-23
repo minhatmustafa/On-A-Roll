@@ -1,10 +1,10 @@
 {
     "manifest_version": 2,
 
-    "name": "Refrigerator",
-    "description": "Let's see how many sandwiches you've made!",
+    "name": "Dashboard",
+    "description": "Time to study!",
     "version": "1.0",
-    "author": "HackGT Toasterz",
+    "author": "HackGT8 Toasterz",
     "browser_action": {
         "default_icon": "toast.png",
         "default_popup": "popup.html",
