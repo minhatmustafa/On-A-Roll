@@ -2,12 +2,16 @@
 h1{
     text-align: center;
     font-family: Poppins;
-    font-size: 160%;
+    font-size: 150%;
 }
 body{
-    margin: 5px;
+    margin: 4px;
     background-color:#ADD8E6;
 }
 button{
+    font-size: Poppins;
     background-color: #59CD90;
+    display: inline-block;
+    border: none;
 }
+button{border-radius: 4px;}
