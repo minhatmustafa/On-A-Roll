@@ -1,4 +1,5 @@
-h1{
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+head{
     text-align: center;
     font-family: Poppins;
     font-size: 150%;
@@ -9,7 +10,8 @@ body{
 }
 
 .btn{
-    background-color: #FFFBF4;
+    background-color: white;
+    text-align: center;
 }
 #lunchbox{
     background-color: #FAC05E;
@@ -20,3 +22,6 @@ body{
     text-align: center;
 }
 button{border-radius: 4px;}
+button{
+    font-family: Poppins;
+}
