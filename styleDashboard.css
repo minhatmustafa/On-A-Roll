@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-head{
+h1{
     text-align: center;
     font-family: Poppins;
     font-size: 150%;
@@ -8,18 +8,30 @@ body{
     margin: 5px;
     background-color: #FFFBF4;
 }
-
+.btnContainer{
+    float: right;
+}
 .btn{
+    position: absolute;
+    left: 80px;
+    top:20px;
     background-color: white;
     text-align: center;
 }
 #lunchbox{
+    position:absolute;
+    bottom: 7%;
+    left: 20%;
     background-color: #FAC05E;
     text-align: center;
 }
 #help{
+    position:absolute;
+    bottom: 7%;
+    right: 20%;
     background-color: #F79D84;
     text-align: center;
+    float: right;
 }
 button{border-radius: 4px;}
 button{
