@@ -3,6 +3,14 @@ body {
     margin: 5px;
     background-color: #FFFBF4;
 }
+h1{
+    font-family: Poppins;
+    font-size: 30px;
+}
+.imgContainer{
+    float: auto;
+}
+
 #tasks  {
     background-color: #3FA7D6;
     position:absolute;
