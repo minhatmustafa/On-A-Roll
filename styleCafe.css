@@ -3,26 +3,39 @@ body {
     margin: 5px;
     background-color: #FFFBF4;
 }
-h1{
+.h1{
     font-family: Poppins;
-    font-size: 30px;
+    font-size: 35px;
+    position:absolute;
+    left: 600px;
+    top: 3px;
 }
-.imgContainer{
-    float: auto;
+img{
+    position: relative;
+    left: 400px;
+    top: 110px;
+    width: 225px;
 }
-
 #tasks  {
     background-color: #3FA7D6;
     position:absolute;
     left: 150px;
     bottom: 50px;
     font-size: 20px;
+    color: white;
 }
 #lunchbox   {
     background-color: #59CD90;
     position:absolute;
     right: 150px;
     bottom: 50px;
+    font-size: 20px;
+}
+#crumbs{
+    background-color: #FAC05E;
+    position:absolute;
+    right: 220px;
+    top: 40px;
     font-size: 20px;
 }
 button{border-radius: 4px;}
