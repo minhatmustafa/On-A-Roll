@@ -61,6 +61,16 @@ img{
     border-color: #FFFBF4;
     border: none;
 }
+#congrats{
+    position:absolute;
+    bottom: 30%;
+    right: 17%;
+    background-color: #3FA7D6;
+    text-align: center;
+    float: right;
+    font-size: 20px;
+    border: none;
+}
 button{border-radius: 4px;}
 button{
     font-family: Poppins;
