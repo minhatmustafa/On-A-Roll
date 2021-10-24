@@ -1,8 +1,59 @@
-h1 {
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.h1 {
     font-size: 15px;
     text-align: center;
+    font-family: Poppins;
+    position:absolute;
+    left: 330px;
+    top: 30px;
+    font-size: 40px;
+    font-weight: 1000; 
+}
+.h2  {
+    font-size: 15px;
+    text-align: center;
+    font-family: Poppins;
+    position:absolute; 
+    font-size: 30px;
+    left: 1070px;
+    top: 10px;
+    font-weight: 600;
 }
 body {
     margin: 5px;
     background-color: #FFFBF4;
+}
+.imgContainer{
+    float: right;
+}
+img{
+    position: relative;
+    right: 230px;
+    bottom: -80px;
+    width: 150px;
+}
+.plain {
+    width: 375px;
+    position:absolute;
+    left: 280px;
+    top: 150px;
+}
+#tasks  {
+    background-color: #3FA7D6;
+    position:absolute;
+    left: 150px;
+    bottom: 50px;
+    font-size: 20px;
+}
+#cafe   {
+    background-color: #59CD90;
+    position:absolute;
+    right: 150px;
+    bottom: 50px;
+    font-size: 20px;
+}
+button{border-radius: 4px;}
+button{
+    font-family: Poppins;
+    border: none;
 }

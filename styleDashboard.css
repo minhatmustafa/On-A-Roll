@@ -11,8 +11,11 @@ body{
     margin: 5px;
     background-color: #FFFBF4;
 }
-#image{
-    max-width: 800px;
+img{
+    position:absolute;
+    bottom: 18%;
+    left: 10%;
+    width: 800px;
 }
 .btnContainer{
     float: right;
@@ -22,9 +25,11 @@ body{
 }
 .go{
     position: relative;
-    right: -40px;
+    right: -50px;
     top: 80px;
     background-color: #59CD90;
+    font-size: 15px;
+    border-color: #FFFBF4;
 }
 .btn{
     position: relative;
@@ -40,7 +45,8 @@ body{
     left: 20%;
     background-color: #FAC05E;
     text-align: center;
-    font-size: 15px;
+    font-size: 20px;
+    border-color: #FFFBF4;
 }
 #help{
     position:absolute;
@@ -49,7 +55,8 @@ body{
     background-color: #F79D84;
     text-align: center;
     float: right;
-    font-size: 15px;
+    font-size: 20px;
+    border-color: #FFFBF4;
 }
 button{border-radius: 4px;}
 button{

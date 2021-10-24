@@ -1,4 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body {
     margin: 5px;
     background-color: #FFFBF4;
+}
+#tasks  {
+    background-color: #3FA7D6;
+    position:absolute;
+    left: 150px;
+    bottom: 50px;
+    font-size: 20px;
+}
+#lunchbox   {
+    background-color: #59CD90;
+    position:absolute;
+    right: 150px;
+    bottom: 50px;
+    font-size: 20px;
+}
+button{border-radius: 4px;}
+button{
+    font-family: Poppins;
+    border: none;
 }
