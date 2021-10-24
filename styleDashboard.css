@@ -11,6 +11,9 @@ body{
     margin: 5px;
     background-color: #FFFBF4;
 }
+#image{
+    max-width: 800px;
+}
 .btnContainer{
     float: right;
 }
