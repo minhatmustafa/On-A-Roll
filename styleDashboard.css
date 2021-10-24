@@ -25,9 +25,11 @@ img{
 }
 .go{
     position: relative;
-    right: -40px;
+    right: -50px;
     top: 80px;
     background-color: #59CD90;
+    font-size: 15px;
+    border-color: #FFFBF4;
 }
 .btn{
     position: relative;
@@ -43,7 +45,8 @@ img{
     left: 20%;
     background-color: #FAC05E;
     text-align: center;
-    font-size: 15px;
+    font-size: 20px;
+    border-color: #FFFBF4;
 }
 #help{
     position:absolute;
@@ -52,7 +55,8 @@ img{
     background-color: #F79D84;
     text-align: center;
     float: right;
-    font-size: 15px;
+    font-size: 20px;
+    border-color: #FFFBF4;
 }
 button{border-radius: 4px;}
 button{
