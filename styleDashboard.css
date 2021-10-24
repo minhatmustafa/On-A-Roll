@@ -26,7 +26,7 @@ img{
 .go{
     position: relative;
     right: -50px;
-    top: 80px;
+    top: 100px;
     background-color: #59CD90;
     font-size: 15px;
     border-color: #FFFBF4;
@@ -34,29 +34,32 @@ img{
 .btn{
     position: relative;
     right: 245px;
-    top: 80px;
+    top: 100px;
     background-color: white;
     text-align: center;
     font-size: 20px;
 }
 #lunchbox{
     position:absolute;
-    bottom: 7%;
-    left: 20%;
+    bottom: 15%;
+    right: 30%;
     background-color: #FAC05E;
     text-align: center;
     font-size: 20px;
     border-color: #FFFBF4;
+    border: none;
 }
-#help{
+#logout{
     position:absolute;
-    bottom: 7%;
-    right: 20%;
-    background-color: #F79D84;
+    bottom: 15%;
+    right: 10%;
+    background-color: #EE6352;
+    color: white;
     text-align: center;
     float: right;
     font-size: 20px;
     border-color: #FFFBF4;
+    border: none;
 }
 button{border-radius: 4px;}
 button{
