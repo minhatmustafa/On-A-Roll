@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 h1{
+    position:absolute;
+    top: 5%;
+    left: 70%;
     text-align: center;
     font-family: Poppins;
-    font-size: 150%;
+    font-size: 200%;
 }
 body{
     margin: 5px;
@@ -11,12 +14,22 @@ body{
 .btnContainer{
     float: right;
 }
+.goContainer{
+    float: right;
+}
+.go{
+    position: relative;
+    right: -40px;
+    top: 80px;
+    background-color: #59CD90;
+}
 .btn{
-    position: absolute;
-    left: 80px;
-    top:20px;
+    position: relative;
+    right: 245px;
+    top: 80px;
     background-color: white;
     text-align: center;
+    font-size: 20px;
 }
 #lunchbox{
     position:absolute;
@@ -24,6 +37,7 @@ body{
     left: 20%;
     background-color: #FAC05E;
     text-align: center;
+    font-size: 15px;
 }
 #help{
     position:absolute;
@@ -32,6 +46,7 @@ body{
     background-color: #F79D84;
     text-align: center;
     float: right;
+    font-size: 15px;
 }
 button{border-radius: 4px;}
 button{
